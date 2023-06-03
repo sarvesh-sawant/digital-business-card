@@ -11,7 +11,7 @@ body {
 
 .main-container {
   background: #1A1B21;
-  max-width: 40%;
+  max-width: 30%;
   height: 100%;
   margin: 3vh auto;
   border-radius: 0.75em;
@@ -160,5 +160,14 @@ body {
   }
   .about--content{
     font-size: 0.8rem;
+  }
+  .main-container {
+    max-width: 85%;
+  }
+}
+
+@media (max-width: 800px){
+  .main-container {
+    max-width: 50%;
   }
 }
