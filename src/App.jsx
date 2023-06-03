@@ -1,5 +1,13 @@
+import Info from "./components/Info"
+import About from "./components/About"
+import Interests from "./components/Interests"
+
 export default function App() {
   return (
-    <h1>Digital Business Card</h1>
+    <div className="main-container">
+      <Info />
+      <About />
+      <Interests />
+    </div>
   )
 }
